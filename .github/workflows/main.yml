@@ -1,4 +1,8 @@
+on: push
+
+jobs:
   mayhem:
+    runs-on: ubuntu-latest
     name: 'fuzz'
     
     strategy:
