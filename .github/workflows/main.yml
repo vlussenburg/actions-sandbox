@@ -1,0 +1,16 @@
+  mayhem:
+    name: 'fuzz'
+    
+    strategy:
+      fail-fast: false
+      #matrix: ${{fromJson(needs.matrix.outputs.matrix)}}
+      matrix: 
+        subcommand: ["df", "gs", "cp"]
+        # The include keyword that adds a new variable
+        include:
+          - subcommand: md5
+            optionalArgs: "@s"
+            
+        steps:
+          - name: Print
+          - run: echo "${subcommand} ${optionalArgs}"
