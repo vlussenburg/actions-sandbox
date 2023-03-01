@@ -1,13 +1,29 @@
 on: push
 
 jobs:
+
+  matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+
+    steps:
+      - id: set-matrix
+        run: |
+          #matrix=$(./command-to-find-testcases.sh)
+          matrix={"subcommand": {["df", "gs", "cp"]}, "include": [{"subcommand": "md5", "optionalArgs": "@s"}]}
+          echo $matrix
+          echo $matrix | jq .
+          echo "matrix=$matrix" >> $GITHUB_OUTPUT
+
   mayhem:
     runs-on: ubuntu-latest
     name: 'fuzz'
+    needs: matrix
     
     strategy:
       fail-fast: false
-      #matrix: ${{fromJson(needs.matrix.outputs.matrix)}}
+      #matrix: ${{ fromJson(needs.matrix.outputs.matrix) }}
       matrix: 
         subcommand: ["df", "gs", "cp"]
         # The include keyword that adds a new variable
