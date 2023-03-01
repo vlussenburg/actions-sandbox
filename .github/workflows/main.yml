@@ -11,7 +11,7 @@ jobs:
       - id: set-matrix
         run: |
           #matrix=$(./command-to-find-testcases.sh)
-          matrix={"subcommand": {["df", "gs", "cp"]}, "include": [{"subcommand": "md5", "optionalArgs": "@s"}]}
+          matrix='{"subcommand": {["df", "gs", "cp"]}, "include": [{"subcommand": "md5", "optionalArgs": "@s"}]}'
           echo $matrix
           echo $matrix | jq .
           echo "matrix=$matrix" >> $GITHUB_OUTPUT
