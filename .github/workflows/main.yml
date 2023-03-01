@@ -15,6 +15,7 @@ jobs:
           - subcommand: md5
             optionalArgs: "@s"
             
-        steps:
-          - name: Print
-          - run: echo "${subcommand} ${optionalArgs}"
+    steps:
+      - name: Print
+        run: |
+          echo "${subcommand} ${optionalArgs}"
