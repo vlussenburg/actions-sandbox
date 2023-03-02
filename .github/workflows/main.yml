@@ -33,7 +33,7 @@ jobs:
             
     steps:
       - name: Simulate running mayhem async (no wait) ${{ matrix.subcommand }}
-        id: "mayhem-run-${{ matrix.subcommand }}"
+        id: mayhem-run
         run: |
           echo "${{ matrix.subcommand }} ${{ matrix.optionalArgs }}"
           echo "runId=${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> $GITHUB_OUTPUT
