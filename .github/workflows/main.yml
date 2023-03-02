@@ -23,17 +23,17 @@ jobs:
     
     strategy:
       fail-fast: false
-      #matrix: ${{ fromJson(needs.matrix.outputs.matrix) }}
-      matrix: 
-        subcommand: ["df", "gs", "cp"]
-        # The include keyword that adds a new variable
-        include:
-          - subcommand: md5
-            optionalArgs: "@s"
+      matrix: ${{ fromJson(needs.matrix.outputs.matrix) }}
+#       matrix: 
+#         subcommand: ["df", "gs", "cp"]
+#         # The include keyword that adds a new variable
+#         include:
+#           - subcommand: md5
+#             optionalArgs: "@s"
             
     steps:
-      - id: mayhem-run-${{ matrix.subcommand }}
-        name: Simulate running mayhem async (no wait)
+      #- id: mayhem-run-${{ matrix.subcommand }}
+      - name: Simulate running mayhem async (no wait)
         run: |
           echo "${{ matrix.subcommand }} ${{ matrix.optionalArgs }}"
           echo "runId=${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> $GITHUB_OUTPUT
@@ -47,8 +47,6 @@ jobs:
       matrix: ${{fromJson(needs.matrix.outputs.matrix)}}
 
     steps:
-      - uses: actions/checkout@v3
-
       - id: mayhem-check
         name: Simulate checking mayhem results
         # can't nest, but equivalent of: ${{ needs.mayhem-async.steps.mayhem-run-${{ matrix.subcommand }}.outputs.runId }}
