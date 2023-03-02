@@ -33,7 +33,7 @@ jobs:
 
     steps:
       - id: run-mayhem-async
-        name: run-mayhem-async
+        name: Simulating an async Mayhem run, resulting in a runId
         run: |
           echo "runId=runId-of-${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> $GITHUB_OUTPUT
 
@@ -43,6 +43,8 @@ jobs:
         with:
           matrix-step-name: run-mayhem-async
           matrix-key: ${{ matrix.subcommand }}
+          outputs: |-
+             runId: ${{ steps.run-mayhem-async.outputs.runId }}
 
   ## Read matrix outputs 
   read:
@@ -67,9 +69,7 @@ jobs:
 
     steps:
       - id: mayhem-check
-        name: Simulate checking mayhem results
-        #echo ${{ needs.mayhem-async.steps.mayhem-run-[format('{0}', matrix.subcommand)].outputs.runId }}
-        #echo ${{ fromJson(needs.read.outputs.result).runId.[format('{0}', matrix.subcommand)] }}
+        name: Simulate checking results from async Mayhem jobs
         run: |
           echo ${{ fromJson(needs.read.outputs.result).runId[matrix.subcommand] }}
 
