@@ -34,7 +34,7 @@ jobs:
     steps:
       - name: run-mayhem-async
         run: |
-          echo ${{ toJSON(steps) }}
+          echo "${{ toJSON(steps) }}"
           echo "${{ matrix.subcommand }} ${{ matrix.optionalArgs }}"
           echo "runId=${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> $GITHUB_OUTPUT
 
