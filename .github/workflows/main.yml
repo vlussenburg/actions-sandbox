@@ -23,17 +23,19 @@ jobs:
     
     strategy:
       fail-fast: false
-#       matrix: ${{ fromJson(needs.matrix.outputs.matrix) }}
-      matrix: 
-        subcommand: ["df", "gs", "cp"]
-        # The include keyword that adds a new variable
-        include:
-          - subcommand: md5
-            optionalArgs: "@s"
-            
+      matrix: ${{ fromJson(needs.matrix.outputs.matrix) }}
+#       matrix: 
+#         subcommand: ["df", "gs", "cp"]
+#         # The include keyword that adds a new variable
+#         include:
+#           - subcommand: md5
+#             optionalArgs: "@s"
+
+    # workaround for https://github.com/actions/runner/issues/1985
+    environment: ${{ matrix.subcommand }}        
     steps:
       - name: Simulate running mayhem async (no wait) ${{ matrix.subcommand }}
-        id: ${{ matrix.subcommand }}
+        id: run-mayhem-${{ matrix.subcommand }}
         run: |
           echo "${{ matrix.subcommand }} ${{ matrix.optionalArgs }}"
           echo "runId=${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> $GITHUB_OUTPUT
