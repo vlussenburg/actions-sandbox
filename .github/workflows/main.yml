@@ -51,6 +51,6 @@ jobs:
 
       - id: mayhem-check
         name: Simulate checking mayhem results
+        # can't nest, but equivalent of: ${{ needs.mayhem-async.steps.mayhem-run-${{ matrix.subcommand }}.outputs.runId }}
         run: |
-          # can't nest, but equivalent of: ${{ needs.mayhem-async.steps.mayhem-run-${{ matrix.subcommand }}.outputs.runId }}
           echo: ${{ needs.mayhem-async.steps.mayhem-run-[format('{0}', matrix.subcommand)].outputs.runId }}
