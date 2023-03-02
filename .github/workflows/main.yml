@@ -32,11 +32,14 @@ jobs:
 #             optionalArgs: "@s"
 
     steps:
-      - name: run-mayhem-async
+      - id: run-mayhem-async
+        name: run-mayhem-async
         run: |
           echo "${{ toJSON(steps) }}"
           echo "${{ matrix.subcommand }} ${{ matrix.optionalArgs }}"
+          echo "runId=${{ matrix.subcommand }} ${{ matrix.optionalArgs }}"
           echo "runId=${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> $GITHUB_OUTPUT
+          echo "${{ toJSON(steps) }}"
 
        ## Write for matrix outputs workaround 
       - uses: cloudposse/github-action-matrix-outputs-write@0.3.1
