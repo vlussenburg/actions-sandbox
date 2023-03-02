@@ -31,12 +31,10 @@ jobs:
 #           - subcommand: md5
 #             optionalArgs: "@s"
 
-    # workaround for https://github.com/actions/runner/issues/1985
-    environment: ${{ matrix.subcommand }}        
     steps:
       - name: Simulate running mayhem async (no wait) ${{ matrix.subcommand }}
-        id: run-mayhem-${{ matrix.subcommand }}
         run: |
+          echo ${{ toJSON(steps) }}
           echo "${{ matrix.subcommand }} ${{ matrix.optionalArgs }}"
           echo "runId=${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> $GITHUB_OUTPUT
 
