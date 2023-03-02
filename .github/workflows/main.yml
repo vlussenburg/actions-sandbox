@@ -35,7 +35,7 @@ jobs:
       - id: run-mayhem-async
         name: run-mayhem-async
         run: |
-          echo "runId=${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> $GITHUB_OUTPUT
+          echo "runId=runId-of-${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> $GITHUB_OUTPUT
 
        ## Write for matrix outputs workaround 
       - uses: cloudposse/github-action-matrix-outputs-write@0.3.1
@@ -43,8 +43,6 @@ jobs:
         with:
           matrix-step-name: run-mayhem-async
           matrix-key: ${{ matrix.subcommand }}
-          outputs: |-
-            runId: ${{ steps.run-mayhem-async.outputs.runId }}
 
   ## Read matrix outputs 
   read:
