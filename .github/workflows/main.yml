@@ -73,7 +73,5 @@ jobs:
         #echo ${{ needs.mayhem-async.steps.mayhem-run-[format('{0}', matrix.subcommand)].outputs.runId }}
         #echo ${{ fromJson(needs.read.outputs.result).runId.[format('{0}', matrix.subcommand)] }}
         run: |
-          echo ${{ needs.read.outputs.result }}
-          echo ${{ fromJson(needs.read.outputs.result).runId }}
-          echo ${{ fromJson(needs.read.outputs.result).runId.df }}
+          echo ${{ fromJson(needs.read.outputs.result).runId }}.${{ matrix.subcommand }}
 
