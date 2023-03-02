@@ -32,8 +32,8 @@ jobs:
 #             optionalArgs: "@s"
             
     steps:
-      #- id: mayhem-run-${{ matrix.subcommand }}
-      - name: Simulate running mayhem async (no wait)
+      - name: Simulate running mayhem async (no wait) ${{ matrix.subcommand }}
+        id: "mayhem-run-${{ matrix.subcommand }}"
         run: |
           echo "${{ matrix.subcommand }} ${{ matrix.optionalArgs }}"
           echo "runId=${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> $GITHUB_OUTPUT
@@ -51,4 +51,4 @@ jobs:
         name: Simulate checking mayhem results
         # can't nest, but equivalent of: ${{ needs.mayhem-async.steps.mayhem-run-${{ matrix.subcommand }}.outputs.runId }}
         run: |
-          echo: ${{ needs.mayhem-async.steps.mayhem-run-[format('{0}', matrix.subcommand)].outputs.runId }}
+          echo ${{ needs.mayhem-async.steps.mayhem-run-[format('{0}', matrix.subcommand)].outputs.runId }}
