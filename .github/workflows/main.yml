@@ -83,4 +83,5 @@ jobs:
         #echo ${{ fromJson(needs.read.outputs.result).runId[matrix.subcommand] }}
         run: |
           echo ${{ needs.mayhem-async.outputs.runId-[format('{0}', matrix.subcommand)] }}
+          echo ${{ needs.mayhem-async.outputs.runId-cp }}
 
