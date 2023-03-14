@@ -35,41 +35,52 @@ jobs:
       - id: run-mayhem-async
         name: Simulating an async Mayhem run, resulting in a runId
         run: |
-          echo "runId=runId-of-${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> $GITHUB_OUTPUT
+          echo "runId-of-${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> runId
+          echo "runId-${{ matrix.subcommand }}=runId-of-${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> $GITHUB_OUTPUT
 
        ## Write for matrix outputs workaround 
-      - uses: cloudposse/github-action-matrix-outputs-write@0.3.1
-        id: out
+#       - uses: cloudposse/github-action-matrix-outputs-write@0.3.1
+#         id: out
+#         with:
+#           matrix-step-name: run-mayhem-async
+#           matrix-key: ${{ matrix.subcommand }}
+#           outputs: |-
+#              runId: ${{ steps.run-mayhem-async.outputs.runId }}
+
+      - uses: actions/upload-artifact@v3
         with:
-          matrix-step-name: run-mayhem-async
-          matrix-key: ${{ matrix.subcommand }}
-          outputs: |-
-             runId: ${{ steps.run-mayhem-async.outputs.runId }}
+          name: ${{ matrix.subcommand }}
+          path: runId
+          if-no-files-found: error
 
   ## Read matrix outputs 
-  read:
-    runs-on: ubuntu-latest
-    needs: [mayhem-async]
-    steps:
-      - uses: cloudposse/github-action-matrix-outputs-read@0.1.1
-        id: read
-        with:
-          matrix-step-name: run-mayhem-async
+#   read:
+#     runs-on: ubuntu-latest
+#     needs: [mayhem-async]
+#     steps:
+#       - uses: cloudposse/github-action-matrix-outputs-read@0.1.1
+#         id: read
+#         with:
+#           matrix-step-name: run-mayhem-async
 
-    outputs:
-      result: "${{ steps.read.outputs.result }}"
+#     outputs:
+#       result: "${{ steps.read.outputs.result }}"
 
   check-mayhem-result:
     runs-on: ubuntu-latest
-    needs: [mayhem-async, matrix, read]
+    needs: [mayhem-async, matrix]
 
     strategy:
       fail-fast: false
       matrix: ${{fromJson(needs.matrix.outputs.matrix)}}
 
     steps:
+      - uses: actions/download-artifact@v3
+        name: ${{ matrix.subcommand }}
+
       - id: mayhem-check
         name: Simulate checking results from async Mayhem jobs
         run: |
           echo ${{ fromJson(needs.read.outputs.result).runId[matrix.subcommand] }}
+          echo ${{ needs.mayhem-async.outputs.runId-[format('{0}', matrix.subcommand)] }}
 
