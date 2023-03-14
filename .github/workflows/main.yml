@@ -49,7 +49,7 @@ jobs:
 
       - uses: actions/upload-artifact@v3
         with:
-          name: ${{ matrix.subcommand }}
+          name: runId-${{ matrix.subcommand }}
           path: runId
           if-no-files-found: error
 
@@ -76,13 +76,16 @@ jobs:
 
     steps:
       - uses: actions/download-artifact@v3
-        name: ${{ matrix.subcommand }}
+        with:
+          name: runId-${{ matrix.subcommand }}
 
       - id: mayhem-check
         name: Simulate checking results from async Mayhem jobs
         #echo ${{ fromJson(needs.read.outputs.result).runId[matrix.subcommand] }}
         run: |
-          echo ${{ needs.mayhem-async.outputs }}
+          runId=$(cat ${{ matrix.subcommand }})
+          echo $runId
+          echo ${{ toJson(needs.mayhem-async.outputs) }}
           echo ${{ needs.mayhem-async.outputs.runId-[format('{0}', matrix.subcommand)] }}
           echo ${{ needs.mayhem-async.outputs.runId-cp }}
 
