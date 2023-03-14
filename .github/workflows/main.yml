@@ -36,32 +36,11 @@ jobs:
         name: Simulating an async Mayhem run, resulting in a runId
         run: |
           echo "runId-of-${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> runId
-          echo "runId-${{ matrix.subcommand }}=runId-of-${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> $GITHUB_OUTPUT
+          echo "runId=runId-of-${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> $GITHUB_OUTPUT
 
-       ## Write for matrix outputs workaround 
-#       - uses: cloudposse/github-action-matrix-outputs-write@0.3.1
-#         id: out
-#         with:
-#           matrix-step-name: run-mayhem-async
-#           matrix-key: ${{ matrix.subcommand }}
-#           outputs: |-
-#              runId: ${{ steps.run-mayhem-async.outputs.runId }}
-
-      - uses: actions/upload-artifact@v3
+      - name: Invoke workflow with inputs
+        uses: benc-uk/workflow-dispatch@v1
         with:
-          name: runId-${{ matrix.subcommand }}
-          path: runId
-          if-no-files-found: error
+          workflow: Check Mayhem
+          inputs: '{ "runId": "${{ steps.run-mayhem-async.outputs.runId }}" }'
 
-  ## Read matrix outputs 
-#   read:
-#     runs-on: ubuntu-latest
-#     needs: [mayhem-async]
-#     steps:
-#       - uses: cloudposse/github-action-matrix-outputs-read@0.1.1
-#         id: read
-#         with:
-#           matrix-step-name: run-mayhem-async
-
-#     outputs:
-#       result: "${{ steps.read.outputs.result }}"
