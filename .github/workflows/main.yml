@@ -23,6 +23,7 @@ jobs:
     
     strategy:
       fail-fast: false
+      max-parallel: 3
       matrix: ${{ fromJson(needs.matrix.outputs.matrix) }}
 #       matrix: 
 #         subcommand: ["df", "gs", "cp"]
@@ -32,15 +33,9 @@ jobs:
 #             optionalArgs: "@s"
 
     steps:
-      - id: run-mayhem-async
-        name: Simulating an async Mayhem run, resulting in a runId
+      - id: run-mayhem
+        name: Simulating a Mayhem run, resulting in a runId
         run: |
-          echo "runId-of-${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> runId
+          echo "runId-of-${{ matrix.subcommand }} ${{ matrix.optionalArgs }}"
           echo "runId=runId-of-${{ matrix.subcommand }} ${{ matrix.optionalArgs }}" >> $GITHUB_OUTPUT
-
-      - name: Invoke workflow with inputs
-        uses: benc-uk/workflow-dispatch@v1
-        with:
-          workflow: Check Mayhem
-          inputs: '{ "runId": "${{ steps.run-mayhem-async.outputs.runId }}" }'
 
