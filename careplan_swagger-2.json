@@ -1509,8 +1509,7 @@
             "required": true,
             "schema": {
               "$ref": "#/components/schemas/uuid"
-            },
-            "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
+            }
           },
           {
             "name": "categories",
@@ -3105,11 +3104,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -3125,7 +3124,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -3443,11 +3442,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -3463,7 +3462,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -3525,11 +3524,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -3541,7 +3540,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -3692,11 +3691,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -3712,7 +3711,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -3761,11 +3760,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -3781,7 +3780,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -3873,7 +3872,7 @@
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -3889,7 +3888,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4082,11 +4081,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -4102,7 +4101,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4157,11 +4156,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -4177,7 +4176,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4394,11 +4393,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -4414,7 +4413,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4505,11 +4504,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -4525,7 +4524,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4610,11 +4609,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -4630,7 +4629,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4740,11 +4739,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -4760,7 +4759,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4815,11 +4814,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -4835,7 +4834,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4904,7 +4903,7 @@
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -4920,7 +4919,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4981,11 +4980,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -5001,7 +5000,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -5088,12 +5087,12 @@
             "type": "string",
             "description": "The time the resource was last updated."
           },
-          "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+                    "parentMeasurement": {
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -5109,7 +5108,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -6229,12 +6228,12 @@
             "type": "string",
             "description": "The time the resource was last updated."
           },
-          "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+                    "parentMeasurement": {
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -6250,7 +6249,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "type": {
@@ -6419,12 +6418,12 @@
             "type": "string",
             "description": "The time the resource was last updated."
           },
-          "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+                    "parentMeasurement": {
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -6440,7 +6439,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "type": {
@@ -6612,12 +6611,12 @@
             "type": "string",
             "description": "The time the resource was last updated."
           },
-          "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+                    "parentMeasurement": {
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -6633,7 +6632,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -7200,12 +7199,12 @@
             "type": "string",
             "description": "The time the resource was last updated."
           },
-          "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+                    "parentMeasurement": {
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -7221,7 +7220,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -7495,12 +7494,12 @@
             "type": "string",
             "description": "The time the resource was last updated."
           },
-          "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+                    "parentMeasurement": {
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -7516,7 +7515,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -7577,12 +7576,12 @@
             "type": "string",
             "description": "The time the resource was last updated."
           },
-          "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+                    "parentMeasurement": {
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -7598,7 +7597,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -7659,12 +7658,12 @@
             "type": "string",
             "description": "The time the resource was last updated."
           },
-          "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+                    "parentMeasurement": {
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -7680,7 +7679,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -7741,12 +7740,12 @@
             "type": "string",
             "description": "The time the resource was last updated."
           },
-          "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+                    "parentMeasurement": {
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -7762,7 +7761,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -7810,11 +7809,13 @@
         "properties": {
           "acd": {
             "type": "string",
-            "description": "The phakic anterior chamber depth (acd) for pseudophakic surgery in units of millimeters (2 - 6 for Barrett True-K, 1.2 - 6 for other Barrett formulas, 1.2 - 12 for other formulas)"
+            "description": "The phakic anterior chamber depth (acd) for pseudophakic surgery in units of millimeters (2 - 6 for Barrett True-K, 1.2 - 6 for other Barrett formulas, 1.2 - 12 for other formulas)",
+            "example": "2"
           },
           "lt": {
             "type": "string",
-            "description": "The phakic lens thickness (lt) for pseudophakic surgery in units of millimeters (2 - 8 for Barrett, 2 - 8 for other Barrett formulas, 1.2 - 12 for other formulas)."
+            "description": "The phakic lens thickness (lt) for pseudophakic surgery in units of millimeters (2 - 8 for Barrett, 2 - 8 for other Barrett formulas, 1.2 - 12 for other formulas).",
+            "example": "2"
           },
           "phakicRefraction": {
             "$ref": "#/components/schemas/phakicRefraction"
@@ -7974,12 +7975,12 @@
             "type": "string",
             "description": "The time the resource was last updated."
           },
-          "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+                    "parentMeasurement": {
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -7995,7 +7996,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -8114,7 +8115,7 @@
             "description": "The prefix."
           },
           "reference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The reference (Practitioner/guid) used in returning the surgeon list."
           },
           "role": {
@@ -8329,12 +8330,12 @@
             "type": "string",
             "description": "The time the resource was last updated."
           },
-          "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+                    "parentMeasurement": {
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -8350,7 +8351,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "type": {
@@ -8407,12 +8408,12 @@
             "type": "string",
             "description": "The time the resource was last updated."
           },
-          "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+                    "parentMeasurement": {
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -8428,7 +8429,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -8799,12 +8800,12 @@
             "type": "string",
             "description": "The time the resource was last updated."
           },
-          "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+                    "parentMeasurement": {
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -8820,7 +8821,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -8881,12 +8882,12 @@
             "type": "string",
             "description": "The time the resource was last updated."
           },
-          "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+                    "parentMeasurement": {
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -8902,7 +8903,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -9755,12 +9756,12 @@
             "type": "string",
             "description": "The time the resource was last updated."
           },
-          "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+                    "parentMeasurement": {
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -9776,7 +9777,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -9839,12 +9840,12 @@
             "type": "string",
             "description": "The time the resource was last updated."
           },
-          "parentMeasurement": {
-            "$ref": "#/components/schemas/uuid",
+                    "parentMeasurement": {
+            "type": "string",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -9860,7 +9861,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "$ref": "#/components/schemas/uuid",
+            "type": "string",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -10102,7 +10103,8 @@
           },
           "guid": {
             "$ref": "#/components/schemas/uuid",
-            "description": "The guid of the Patient resource stored in CDR."
+            "description": "The guid of the Patient resource stored in CDR.",
+            "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
           },
           "lastName": {
             "type": "string",
