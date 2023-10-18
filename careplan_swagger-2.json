@@ -250,9 +250,9 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/uuid",
-              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
-            }
+              "$ref": "#/components/schemas/uuid"
+            },
+            "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
           },
           {
             "name": "timeOutCompletedDateTime",
@@ -462,9 +462,9 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/uuid",
-              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
-            }
+              "$ref": "#/components/schemas/uuid"
+            },
+            "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
           },
           {
             "name": "requestId",
@@ -674,9 +674,9 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/uuid",
-              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
-            }
+              "$ref": "#/components/schemas/uuid"
+            },
+            "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
           },
           {
             "name": "requestId",
@@ -886,9 +886,9 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/uuid",
-              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
-            }
+              "$ref": "#/components/schemas/uuid"
+            },
+            "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
           },
           {
             "name": "requestId",
@@ -1091,9 +1091,9 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/uuid",
-              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
-            }
+              "$ref": "#/components/schemas/uuid"
+            },
+            "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
           },
           {
             "name": "requestId",
@@ -1294,9 +1294,9 @@
             "description": "The unique identifier of the patient to update.",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/uuid",
-              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
-            }
+              "$ref": "#/components/schemas/uuid"
+            },
+            "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
           },
           {
             "name": "requestId",
@@ -1508,20 +1508,20 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/uuid",
-              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
-            }
+              "$ref": "#/components/schemas/uuid"
+            },
+            "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
           },
           {
             "name": "categories",
             "in": "query",
-            "description": "The list of categories of the notes.",
+            "description": "The list of categories of the notes (General, Planning, Consultation, ...).",
             "required": false,
             "schema": {
               "type": "array",
               "items": {
                 "type": "string",
-                "example": "(General, Planning, Consultation, ...)"
+                "example": "General"
               }
             }
           },
@@ -1741,9 +1741,9 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/uuid",
-              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
-            }
+              "$ref": "#/components/schemas/uuid"
+            },
+            "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
           },
           {
             "name": "requestId",
@@ -1935,9 +1935,9 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/uuid",
-              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
-            }
+              "$ref": "#/components/schemas/uuid"
+            },
+            "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
           },
           {
             "name": "requestId",
@@ -2149,8 +2149,7 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/uuid",
-              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
+              "$ref": "#/components/schemas/uuid"
             }
           },
           {
@@ -2368,8 +2367,7 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/uuid",
-              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
+              "$ref": "#/components/schemas/uuid"
             }
           },
           {
@@ -2786,8 +2784,7 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "$ref": "#/components/schemas/uuid",
-              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
+              "$ref": "#/components/schemas/uuid" 
             }
           },
           {
@@ -3089,7 +3086,7 @@
           },
           "caseId": {
             "description": "The case id (CarePlan/guid).",
-            "$ref": "#/components/schemas/uuid",
+            "$ref": "#/components/schemas/uuid"
           },
           "eye": {
             "type": "string",
@@ -7813,39 +7810,11 @@
         "properties": {
           "acd": {
             "type": "string",
-            "description": "The phakic anterior chamber depth (acd) for pseudophakic surgery in units of millimeters.",
-            "examples": {
-              "Barrett True-K": {
-                "value": "2",
-                "summary": "2 - 6 for Barrett True-K"
-              },
-              "other Barrett formulas": {
-                "value": "3",
-                "summary": "1.2 - 6 for other Barrett formulas"
-              },
-              "other formulas": {
-                "value": "4",
-                "summary": "1.2 - 12 for other formulas"
-              }
-            }
+            "description": "The phakic anterior chamber depth (acd) for pseudophakic surgery in units of millimeters (2 - 6 for Barrett True-K, 1.2 - 6 for other Barrett formulas, 1.2 - 12 for other formulas)"
           },
           "lt": {
             "type": "string",
-            "description": "The phakic lens thickness (lt) for pseudophakic surgery in units of millimeters.",
-            "examples": {
-              "Barrett True-K": {
-                "value": "2",
-                "summary": "2 - 8 for Barrett"
-              },
-              "other Barrett formulas": {
-                "value": "3",
-                "summary": "2 - 8 for other Barrett formulas"
-              },
-              "other formulas": {
-                "value": "4",
-                "summary": "1.2 - 12 for other formulas"
-              }
-            }
+            "description": "The phakic lens thickness (lt) for pseudophakic surgery in units of millimeters (2 - 8 for Barrett, 2 - 8 for other Barrett formulas, 1.2 - 12 for other formulas)."
           },
           "phakicRefraction": {
             "$ref": "#/components/schemas/phakicRefraction"
@@ -9432,7 +9401,7 @@
           "lastUpdatedTimestamp": {
             "type": "string",
             "format": "date-time",
-            "description": "The time stamp indicating when the surgeon preferences were last updated by the UI, used by the UI (yyyy-MM-dd'T'HH:mm:ss+00:00).",
+            "description": "The time stamp indicating when the surgeon preferences were last updated by the UI, used by the UI (yyyy-MM-dd'T'HH:mm:ss+00:00)."
           },
           "iolCalculationTimeStamp": {
             "type": "string",
@@ -10368,11 +10337,11 @@
         "properties": {
           "odCaseGuid": {
             "$ref": "#/components/schemas/uuid",
-            "description": "The OD case guid to include in the surgical plan PDF.",
+            "description": "The OD case guid to include in the surgical plan PDF."
           },
           "osCaseGuid": {
             "$ref": "#/components/schemas/uuid",
-            "description": "The OS case guid to include in the surgical plan PDF.",
+            "description": "The OS case guid to include in the surgical plan PDF."
           },
           "odEyeIcon": {
             "type": "string",
