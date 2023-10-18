@@ -36,8 +36,8 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid",
+              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
             }
           },
           {
@@ -241,8 +241,7 @@
             "description": "The unique identifier of the case.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid"
             }
           },
           {
@@ -251,8 +250,8 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid",
+              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
             }
           },
           {
@@ -454,7 +453,7 @@
             "description": "The unique identifier of the case.",
             "required": true,
             "schema": {
-              "type": "string"
+              "$ref": "#/components/schemas/uuid"
             }
           },
           {
@@ -463,8 +462,8 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid",
+              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
             }
           },
           {
@@ -666,8 +665,7 @@
             "description": "The unique identifier of the case.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid"
             }
           },
           {
@@ -676,8 +674,8 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid",
+              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
             }
           },
           {
@@ -879,8 +877,7 @@
             "description": "The unique identifier of the case.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid"
             }
           },
           {
@@ -889,8 +886,8 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid",
+              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
             }
           },
           {
@@ -1094,8 +1091,8 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid",
+              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
             }
           },
           {
@@ -1297,8 +1294,8 @@
             "description": "The unique identifier of the patient to update.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid",
+              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
             }
           },
           {
@@ -1502,8 +1499,7 @@
             "description": "The unique identifier of the case.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid"
             }
           },
           {
@@ -1512,8 +1508,8 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid",
+              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
             }
           },
           {
@@ -1537,8 +1533,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+                "$ref": "#/components/schemas/uuid"
               }
             }
           },
@@ -1737,7 +1732,7 @@
             "description": "The unique identifier of the case.",
             "required": true,
             "schema": {
-              "type": "string"
+              "$ref": "#/components/schemas/uuid"
             }
           },
           {
@@ -1746,8 +1741,8 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid",
+              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
             }
           },
           {
@@ -1940,8 +1935,8 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid",
+              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
             }
           },
           {
@@ -2145,8 +2140,7 @@
             "description": "The unique identifier of the case.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid"
             }
           },
           {
@@ -2155,8 +2149,8 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid",
+              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
             }
           },
           {
@@ -2365,8 +2359,7 @@
             "description": "The unique identifier of the case.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid"
             }
           },
           {
@@ -2375,8 +2368,8 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid",
+              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
             }
           },
           {
@@ -2570,6 +2563,7 @@
             "required": false,
             "schema": {
               "type": "string",
+              "format": "date",
               "example": "2020-01-21"
             }
           },
@@ -2580,6 +2574,7 @@
             "required": false,
             "schema": {
               "type": "string",
+              "format": "date",
               "example": "2020-12-21"
             }
           },
@@ -2589,7 +2584,7 @@
             "description": "If the result should include only patients their active surgeries only when the surgical plan that have a reference image .The format true | false. The default value is true",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "boolean"
             }
           },
           {
@@ -2782,8 +2777,7 @@
             "description": "The unique identifier of the case.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid"
             }
           },
           {
@@ -2792,8 +2786,8 @@
             "description": "The unique identifier of the patient.",
             "required": true,
             "schema": {
-              "type": "string",
-              "example": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+              "$ref": "#/components/schemas/uuid",
+              "example": "133d9d7b-a731-45b3-a5e8-b7931a2ae64e"
             }
           },
           {
@@ -2964,6 +2958,12 @@
   },
   "components": {
     "schemas": {
+      "uuid": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+        "minLength": 36,
+        "maxLength": 36
+      },
       "ExceptionResponseBody": {
         "type": "object",
         "properties": {
@@ -3088,19 +3088,19 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
-            "description": "The case id (CarePlan/guid)."
+            "description": "The case id (CarePlan/guid).",
+            "$ref": "#/components/schemas/uuid",
           },
           "eye": {
             "type": "string",
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -3108,11 +3108,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -3128,7 +3128,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -3260,7 +3260,7 @@
             "description": "The object, defined and managed by the front end, that contains the eye assessment for a patient within a case."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -3288,7 +3288,13 @@
         "properties": {
           "centerType": {
             "type": "string",
-            "description": "The type of center, DilatedPupil | Limbus | UndilatedPupil | Unknown."
+            "description": "The type of center.",
+            "enum": [
+              "DilatedPupil",
+              "Limbus",
+              "UndilatedPupil",
+              "Unknown"
+            ]
           },
           "centerX": {
             "type": "string",
@@ -3300,7 +3306,11 @@
           },
           "centerUnits": {
             "type": "string",
-            "description": "The center position units, mm | pixels."
+            "description": "The center position units, mm | pixels.",
+            "enum": [
+              "mm",
+              "pixels"
+            ]
           },
           "decentrationX": {
             "type": "string",
@@ -3416,7 +3426,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -3424,11 +3434,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -3436,11 +3446,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -3456,7 +3466,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -3498,7 +3508,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -3506,11 +3516,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -3518,11 +3528,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -3534,7 +3544,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -3665,7 +3675,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -3673,11 +3683,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -3685,11 +3695,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -3705,7 +3715,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -3734,7 +3744,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -3742,11 +3752,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -3754,11 +3764,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -3774,7 +3784,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -3842,7 +3852,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -3850,11 +3860,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -3862,11 +3872,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -3882,7 +3892,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4055,7 +4065,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -4063,11 +4073,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -4075,11 +4085,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -4095,7 +4105,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4130,7 +4140,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -4138,11 +4148,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -4150,11 +4160,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -4170,7 +4180,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4367,7 +4377,7 @@
             "type": "string"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -4375,11 +4385,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -4387,11 +4397,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -4407,7 +4417,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4478,7 +4488,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -4486,11 +4496,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -4498,11 +4508,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -4518,7 +4528,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4583,7 +4593,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -4591,11 +4601,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -4603,11 +4613,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -4623,7 +4633,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4712,19 +4722,20 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
+            
           },
           "eye": {
             "type": "string",
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -4732,11 +4743,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -4752,7 +4763,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4787,7 +4798,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -4795,11 +4806,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -4807,11 +4818,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -4827,7 +4838,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4872,7 +4883,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -4880,11 +4891,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -4892,11 +4903,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -4912,7 +4923,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -4953,7 +4964,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -4961,11 +4972,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -4973,11 +4984,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -4993,7 +5004,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -5065,15 +5076,15 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -5081,11 +5092,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -5101,7 +5112,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -5138,14 +5149,16 @@
             "description": "The patient comanaged flag."
           },
           "consultationStageStatusOd": {
-            "type": "string",
             "description": "The consultation stage status for OD case.",
-            "example": "Incomplete | In-Progress | Complete"
+            "type": "string",
+            "enum": [ "Incomplete", "In-Progress", "Complete"],
+            "example": "Incomplete"
           },
           "consultationStageStatusOs": {
             "type": "string",
             "description": "The consultation stage status for OS case.",
-            "example": "Incomplete | In-Progress | Complete"
+            "enum": [ "Incomplete", "In-Progress", "Complete"],
+            "example": "Incomplete"
           },
           "clonedPatientId": {
             "type": "string",
@@ -5260,9 +5273,8 @@
             "description": "The surgeries that patient has had."
           },
           "odActiveCaseStatus": {
-            "type": "string",
-            "description": "The OD active case status.",
-            "example": "true, false"
+            "type": "boolean",
+            "description": "The OD active case status."
           },
           "workflowStatusOd": {
             "type": "string",
@@ -5274,9 +5286,8 @@
             "description": "The OD surgery date based on patient list case."
           },
           "osActiveCaseStatus": {
-            "type": "string",
-            "description": "The OS active case status.",
-            "example": "true, false"
+            "type": "boolean",
+            "description": "The OS active case status."
           },
           "workflowStatusOs": {
             "type": "string",
@@ -5398,7 +5409,11 @@
           },
           "oneArc": {
             "type": "string",
-            "description": "The single arcuate incision flag, NO | YES."
+            "description": "The single arcuate incision flag, NO | YES.",
+            "enum": [
+              "NO",
+              "YES"
+            ]
           },
           "periphCornealThickness": {
             "type": "string",
@@ -5760,7 +5775,7 @@
             "description": "The case details reference needed for reporting."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The careteam guid."
           },
           "lastUpdated": {
@@ -5790,7 +5805,13 @@
         "properties": {
           "centerType": {
             "type": "string",
-            "description": "The type of center, DilatedPupil | Limbus | UndilatedPupil | Unknown."
+            "description": "The type of center.",
+            "enum": [
+              "DilatedPupil",
+              "Limbus",
+              "UndilatedPupil",
+              "Unknown"
+            ]
           },
           "centerX": {
             "type": "string",
@@ -5802,7 +5823,11 @@
           },
           "centerUnits": {
             "type": "string",
-            "description": "The center position units, mm | pixels."
+            "description": "The center position units.",
+            "enum": [
+              "mm",
+              "pixels"
+            ]
           },
           "decentrationX": {
             "type": "string",
@@ -5824,7 +5849,13 @@
         "properties": {
           "centerType": {
             "type": "string",
-            "description": "The type of center, DilatedPupil | Limbus | UndilatedPupil | Unknown."
+            "description": "The type of center.",
+            "enum": [
+              "DilatedPupil",
+              "Limbus",
+              "UndilatedPupil",
+              "Unknown"
+            ]
           },
           "centerX": {
             "type": "string",
@@ -5836,7 +5867,11 @@
           },
           "centerUnits": {
             "type": "string",
-            "description": "The center position units, mm | pixels."
+            "description": "The center position units.",
+            "enum": [
+              "mm",
+              "pixels"
+            ]
           },
           "decentrationX": {
             "type": "string",
@@ -5897,8 +5932,7 @@
           },
           "lastUpdatedTimeStamp": {
             "type": "string",
-            "description": "The timestamp when the constant was updated.",
-            "format": "yyyy-MM-ddThh:mm:ss[Z|(+|-)hh:mm]"
+            "description": "The timestamp when the constant was updated (yyyy-MM-ddThh:mm:ss[Z|(+|-)hh:mm])."
           }
         },
         "description": "The lens family constant list."
@@ -6179,7 +6213,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -6187,11 +6221,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -6199,11 +6233,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -6219,7 +6253,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "type": {
@@ -6369,7 +6403,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -6377,11 +6411,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -6389,11 +6423,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -6409,7 +6443,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "type": {
@@ -6523,11 +6557,11 @@
           },
           "lastUpdated": {
             "type": "string",
-            "description": "The time stamp indicating when the object was last updated.",
-            "example": "yyyy-MM-dd'T'HH:mm:ss+00:00"
+            "description": "The time stamp indicating when the object was last updated (yyyy-MM-dd'T'HH:mm:ss+00:00).",
+            "example": "2021-05-12T12:34:33+00:00"
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid of the Patient this belongs to."
           },
           "leftOs": {
@@ -6562,7 +6596,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -6570,11 +6604,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -6582,11 +6616,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -6602,7 +6636,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -6860,7 +6894,11 @@
           },
           "method": {
             "type": "string",
-            "description": "The lens destruction method, CHOP | FRAG."
+            "description": "The lens destruction method.",
+            "enum": [
+              "CHOP",
+              "FRAG"
+            ]
           },
           "numberOfCuts": {
             "type": "string",
@@ -6922,8 +6960,8 @@
           },
           "date": {
             "type": "string",
-            "description": "The date of lens surgery.",
-            "example": "mm/dd/yyyy"
+            "description": "The date of lens surgery (mm/dd/yyyy).",
+            "format": "date"
           },
           "surgeonName": {
             "type": "string",
@@ -6936,7 +6974,7 @@
           "timeStamp": {
             "type": "string",
             "description": "The timeStamp of lens surgery.",
-            "example": ":"
+            "example": "12:23:23"
           }
         },
         "description": "The lens surgeries list."
@@ -6946,18 +6984,24 @@
         "properties": {
           "id": {
             "type": "string",
-            "description": "The unique identifier of this lens.",
-            "example": "1 - 999"
+            "description": "The unique identifier of this lens (1 - 999).",
+            "example": "1"
           },
           "lensType": {
             "type": "string",
             "description": "The type of this lens.",
-            "example": "Aspheric | Monofocal | Monofocal | Multifocal | Toric"
+            "enum": [
+              "Aspheric",
+              "Limbus",
+              "Monofocal",
+              "Multifocal",
+              "Toric"
+            ]
           },
           "model": {
             "type": "string",
-            "description": "The model name of this lens.",
-            "example": "SN6AT9 [6.00 D]-Aspheric | 573T1050 | MC40BD"
+            "description": "The model name of this lens (SN6AT9 [6.00 D]-Aspheric | 573T1050 | MC40BD).",
+            "example": "MC40BD"
           },
           "oraLensId": {
             "type": "string",
@@ -6969,18 +7013,22 @@
           },
           "mfgAconstantOptical": {
             "type": "string",
-            "description": "The manufacturer recommended A-Constant for this lens for optical measurements.",
-            "example": "115.643 - 120.1881"
+            "description": "The manufacturer recommended A-Constant for this lens for optical measurements (115.643 - 120.1881).",
+            "example": "120"
           },
           "mfgAconstantUltrasound": {
             "type": "string",
-            "description": "The manufacturer recommended A-Constant for this lens for ultrasound measurements.",
-            "example": "115.3 - 119.8451"
+            "description": "The manufacturer recommended A-Constant for this lens for ultrasound measurements (115.3 - 119.8451).",
+            "example": "116"
           },
           "chamberType": {
             "type": "string",
             "description": "The chamber in which this lens.",
-            "example": "Anterior | Posterior"
+            "example": "Anterior",
+            "enum": [
+              "Anterior",
+              "Posterior"
+            ]
           },
           "chamberTypeId": {
             "type": "integer",
@@ -7000,7 +7048,12 @@
           "hapticMaterial": {
             "type": "string",
             "description": "The type of material of this lens.",
-            "example": "haptics | Acrylic | PMMA | Polymide"
+            "enum": [
+              "haptics",
+              "Acrylic",
+              "PMMA",
+              "Polymide"
+            ]
           },
           "hapticMaterialId": {
             "type": "integer",
@@ -7020,12 +7073,21 @@
           "manufacturer": {
             "type": "string",
             "description": "The manufacturer of this lens.",
-            "example": "Alcon | AMO | Millennium | Rayner | Staar"
+            "enum": [
+              "Alcon",
+              "AMO",
+              "Millennium",
+              "Rayner",
+              "Staar"
+            ]
           },
           "measurementType": {
             "type": "string",
             "description": "The type of measurements for this lens.",
-            "example": "Optical | Ultrasound"
+            "enum": [
+              "Optical",
+              "Ultrasound"
+            ]
           },
           "measurementTypeId": {
             "type": "integer",
@@ -7039,7 +7101,12 @@
           "opticMaterial": {
             "type": "string",
             "description": "The type of material of this lens.",
-            "example": "optics | Acrylic | PMMA | Silicone"
+            "enum": [
+              "optics",
+              "Acrylic",
+              "PMMA",
+              "Silicone"
+            ]
           },
           "opticMaterialId": {
             "type": "integer",
@@ -7117,7 +7184,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -7125,11 +7192,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -7137,11 +7204,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -7157,7 +7224,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -7245,7 +7312,11 @@
           "arculateIncisionMethod": {
             "type": "string",
             "description": "The arcuate incision policy.",
-            "example": "Single | Paired | No Arcs"
+            "enum": [
+              "Single",
+              "Paired",
+              "No Arcs"
+            ]
           },
           "arcDepth": {
             "type": "string",
@@ -7258,7 +7329,11 @@
           "stepAxisSplit": {
             "type": "string",
             "description": "The type of nomogram table steep axis split.",
-            "example": "Any | ATR/WTR | Superior/Temporal/Oblique"
+            "enum": [
+              "Any",
+              "ATR/WTR",
+              "Superior/Temporal/Oblique"
+            ]
           },
           "ageSplit": {
             "$ref": "#/components/schemas/ageSplit"
@@ -7404,7 +7479,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -7412,11 +7487,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -7424,11 +7499,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -7444,7 +7519,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -7486,7 +7561,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -7494,11 +7569,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -7506,11 +7581,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -7526,7 +7601,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -7568,7 +7643,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -7576,11 +7651,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -7588,11 +7663,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -7608,7 +7683,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -7650,7 +7725,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -7658,11 +7733,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -7670,11 +7745,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -7690,7 +7765,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -7713,8 +7788,9 @@
           },
           "date": {
             "type": "string",
+            "format": "date",
             "description": "The date of other surgery.",
-            "example": "mm/dd/yyyy"
+            "example": "01/01/2024"
           },
           "timeStamp": {
             "type": "string",
@@ -7738,12 +7814,38 @@
           "acd": {
             "type": "string",
             "description": "The phakic anterior chamber depth (acd) for pseudophakic surgery in units of millimeters.",
-            "example": "2 - 6 for Barrett True-K | 1.2 - 6 for other Barrett formulas | 1.2 - 12 for other formulas"
+            "examples": {
+              "Barrett True-K": {
+                "value": "2",
+                "summary": "2 - 6 for Barrett True-K"
+              },
+              "other Barrett formulas": {
+                "value": "3",
+                "summary": "1.2 - 6 for other Barrett formulas"
+              },
+              "other formulas": {
+                "value": "4",
+                "summary": "1.2 - 12 for other formulas"
+              }
+            }
           },
           "lt": {
             "type": "string",
             "description": "The phakic lens thickness (lt) for pseudophakic surgery in units of millimeters.",
-            "example": "2 - 8 for Barrett | 2 - 8 for other Barrett formulas | 1.2 - 12 for other formulas"
+            "examples": {
+              "Barrett True-K": {
+                "value": "2",
+                "summary": "2 - 8 for Barrett"
+              },
+              "other Barrett formulas": {
+                "value": "3",
+                "summary": "2 - 8 for other Barrett formulas"
+              },
+              "other formulas": {
+                "value": "4",
+                "summary": "1.2 - 12 for other formulas"
+              }
+            }
           },
           "phakicRefraction": {
             "$ref": "#/components/schemas/phakicRefraction"
@@ -7755,24 +7857,28 @@
         "type": "object",
         "properties": {
           "cyl": {
-            "type": "string",
+            "type": "integer",
             "description": "The phakic cylinder (cyl) for pseudophakic surgery in units of diopters.",
-            "example": "-30 to 30"
+            "minimum": -30,
+            "maximum": 30
           },
           "sph": {
-            "type": "string",
+            "type": "integer",
             "description": "The phakic sphere (sph) for pseudophakic surgery in units of diopters.",
-            "example": "-30 to 30"
+            "minimum": -30,
+            "maximum": 30
           },
           "steep": {
-            "type": "string",
+            "type": "integer",
             "description": "The phakic steep for pseudophakic surgery in units of degrees.",
-            "example": "0 - 180 (not including 180)"
+            "minimum": 0,
+            "maximum": 179
           },
           "vertex": {
-            "type": "string",
+            "type": "integer",
             "description": "The phakic vertex for pseudophakic surgery in units of millimeters.",
-            "example": "0 - 20"
+            "minimum": 0,
+            "maximum": 20
           }
         },
         "description": "The phakic refraction for pseudophakic surgery."
@@ -7794,8 +7900,8 @@
           },
           "defaultOpticalZone": {
             "type": "string",
-            "description": "The default optical zone for Laser Arcs nomogram.",
-            "example": "8 | 9 | 10 mm"
+            "description": "The default optical zone for Laser Arcs nomogra (8 | 9 | 10 mm).",
+            "example": "8 mm"
           },
           "defaultPostRefractiveFormula": {
             "type": "string",
@@ -7803,8 +7909,8 @@
           },
           "defaultLaserFactor": {
             "type": "string",
-            "description": "The default laser factor for Laser Arcs nomogram.",
-            "example": "0.6 - 1.4"
+            "description": "The default laser factor for Laser Arcs nomogram (0.6 - 1.4).",
+            "example": "0.6"
           },
           "defaultTargetSeq": {
             "type": "string",
@@ -7880,7 +7986,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -7888,11 +7994,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -7900,11 +8006,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -7920,7 +8026,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -8005,12 +8111,8 @@
             "$ref": "#/components/schemas/informationMessage"
           },
           "isTestUser": {
-            "type": "string",
-            "description": "The is test user.",
-            "enum": [
-              "true",
-              "false"
-            ]
+            "type": "boolean",
+            "description": "The is test user."
           },
           "lastName": {
             "type": "string",
@@ -8018,8 +8120,9 @@
           },
           "lastUpdated": {
             "type": "string",
-            "description": "The date and time of the last update.",
-            "example": "yyyy-mm-ddThh:mm:ss[Z|(+|-)hh:mm]"
+            "format": "date-time",
+            "description": "The date and time of the last update (yyyy-mm-ddThh:mm:ss[Z|(+|-)hh:mm]).",
+            "example": "2023-08-11T21:34:34Z"
           },
           "middleName": {
             "type": "string",
@@ -8042,7 +8145,7 @@
             "description": "The prefix."
           },
           "reference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The reference (Practitioner/guid) used in returning the surgeon list."
           },
           "role": {
@@ -8056,7 +8159,10 @@
           "rt2dAlgoDataAccess": {
             "type": "string",
             "description": "The rt2d algo data access for this practitioner.",
-            "example": "NotAllowed, Allowed"
+            "enum": [
+              "NotAllowed",
+              "Allowed"
+            ]
           },
           "suffix": {
             "type": "string",
@@ -8235,7 +8341,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -8243,11 +8349,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -8255,11 +8361,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -8275,7 +8381,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "type": {
@@ -8313,7 +8419,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -8321,11 +8427,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -8333,11 +8439,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -8353,7 +8459,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -8417,18 +8523,18 @@
           },
           "lensType": {
             "type": "string",
-            "description": "The type of this lens family.",
-            "example": "Aspheric | Monofocal | Monofocal | Multifocal | Toric"
+            "description": "The type of this lens family (Aspheric | Monofocal | Monofocal | Multifocal | Toric).",
+            "example": "Aspheric"
           },
           "manufacturer": {
             "type": "string",
-            "description": "The manufacturer of this lens family.",
-            "example": "Alcon | AMO | Millennium | Rayner | Staar"
+            "description": "The manufacturer of this lens family (Alcon | AMO | Millennium | Rayner | Staar).",
+            "example": "Alcon"
           },
           "name": {
             "type": "string",
-            "description": "The name of this lens family.",
-            "example": "Alcon ReSTOR MultiFocal | Toric | Sv250T0 | ZCUx"
+            "description": "The name of this lens family (Alcon ReSTOR MultiFocal | Toric | Sv250T0 | ZCUx).",
+            "example": "Alcon ReSTOR MultiFocal"
           },
           "familyId": {
             "type": "string",
@@ -8436,8 +8542,8 @@
           },
           "id": {
             "type": "string",
-            "description": "The unique identifier of this lens family.",
-            "example": "1 - 999"
+            "description": "The unique identifier of this lens family (1 - 999).",
+            "example": "1"
           },
           "isFreeLens": {
             "type": "boolean",
@@ -8465,7 +8571,11 @@
           "familyType": {
             "type": "string",
             "description": "The type of this lens family.",
-            "example": "Non Toric | Toric"
+            "example": "Non Toric",
+            "enum": [
+              "Non Toric",
+              "Toric"
+            ]
           },
           "chamberTypeId": {
             "type": "integer",
@@ -8475,7 +8585,11 @@
           "chamberType": {
             "type": "string",
             "description": "The chamber in which a lens in this family.",
-            "example": "Anterior | Posterior"
+            "example": "Posterior",
+            "enum": [
+              "Anterior",
+              "Posterior"
+            ]
           },
           "lensTypeId": {
             "type": "integer",
@@ -8576,7 +8690,7 @@
         "type": "object",
         "properties": {
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The unique identifier of the associate case."
           },
           "caseReference": {
@@ -8672,8 +8786,9 @@
         "properties": {
           "date": {
             "type": "string",
-            "description": "The date of refraction visualacuity assessment.",
-            "example": "mm/dd/yyyy"
+            "format": "date",
+            "description": "The date of refraction visualacuity assessment (mm/dd/yyyy).",
+            "example": "01/01/2024"
           },
           "refractions": {
             "minItems": 0,
@@ -8696,7 +8811,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -8704,11 +8819,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -8716,11 +8831,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -8736,7 +8851,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -8778,7 +8893,7 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "eye": {
@@ -8786,11 +8901,11 @@
             "description": "The eye."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -8798,11 +8913,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -8818,7 +8933,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -8841,8 +8956,8 @@
           },
           "date": {
             "type": "string",
-            "description": "The date of refractive surgery.",
-            "example": "mm/dd/yyyy"
+            "format": "date",
+            "description": "The date of refractive surgery (mm/dd/yyyy)."
           },
           "timeStamp": {
             "type": "string",
@@ -9165,8 +9280,8 @@
           },
           "oraCartSurgeryCylinderNotation": {
             "type": "string",
-            "description": "The ORA cart surgery cylinder notation.",
-            "example": "Plus | Minus"
+            "description": "The ORA cart surgery cylinder notation (Plus | Minus).",
+            "example": "Plus"
           },
           "surgeryCenters": {
             "minItems": 0,
@@ -9218,13 +9333,13 @@
         "properties": {
           "formula": {
             "type": "string",
-            "description": "The formula of this surgeon specified constant.",
-            "example": "Barrett, Haigis, HofferQ, Holladay1, Holladay2, HolladayR, SRKT"
+            "description": "The formula of this surgeon specified constant (Barrett, Haigis, HofferQ, Holladay1, Holladay2, HolladayR, SRKT).",
+            "example": "Barrett"
           },
           "name": {
             "type": "string",
-            "description": "The name of this surgeon specified constant.",
-            "example": "LF, A0, A1, A2, ACD, SF, A-Const"
+            "description": "The name of this surgeon specified constant (LF, A0, A1, A2, ACD, SF, A-Const).",
+            "example": "LF"
           },
           "srgAConstantOptical": {
             "type": "string",
@@ -9232,8 +9347,8 @@
           },
           "srgAConstantOpticalTimeStamp": {
             "type": "string",
-            "description": "The timeStamp when surgeon specified constant for a specific lens in optical mode.",
-            "format": "yyyy-MM-ddThh:mm:ss[Z|(+|-)hh:mm]"
+            "description": "The timeStamp when surgeon specified constant for a specific lens in optical mode (yyyy-MM-ddThh:mm:ss[Z|(+|-)hh:mm]).",
+            "format": "date-time"
           },
           "srgAConstantUltrasound": {
             "type": "string",
@@ -9241,8 +9356,8 @@
           },
           "srgAConstantUltrasoundTimeStamp": {
             "type": "string",
-            "description": "The timeStamp when surgeon specified constant for a specific lens in ultrasound mode.",
-            "format": "yyyy-MM-ddThh:mm:ss[Z|(+|-)hh:mm]"
+            "description": "The timeStamp when surgeon specified constant for a specific lens in ultrasound mode (yyyy-MM-ddThh:mm:ss[Z|(+|-)hh:mm]).",
+            "format": "date-time"
           }
         },
         "description": "The surgeon lens constants by formula list."
@@ -9316,13 +9431,12 @@
           },
           "lastUpdatedTimestamp": {
             "type": "string",
-            "description": "The time stamp indicating when the surgeon preferences were last updated by the UI, used by the UI.",
-            "example": "yyyy-MM-dd'T'HH:mm:ss+00:00"
+            "format": "date-time",
+            "description": "The time stamp indicating when the surgeon preferences were last updated by the UI, used by the UI (yyyy-MM-dd'T'HH:mm:ss+00:00).",
           },
           "iolCalculationTimeStamp": {
             "type": "string",
-            "description": "The time stamp indicating when the surgeon preferences were last updated for iolCalculation fields.",
-            "example": "yyyy-MM-dd'T'HH:mm:ss+00:00"
+            "description": "The time stamp indicating when the surgeon preferences were last updated for iolCalculation fields (yyyy-MM-dd'T'HH:mm:ss+00:00)."
           },
           "lastUpdated": {
             "type": "string",
@@ -9402,7 +9516,7 @@
             "description": "The reference to the case details reference needed for reporting."
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The id of the case the surgical plan belongs to, used in reporting."
           },
           "completedDate": {
@@ -9445,8 +9559,8 @@
           },
           "planStatusSelection": {
             "type": "string",
-            "description": "The status of the plan.",
-            "example": "Approved and Scheduled, Scheduled Primary, etc"
+            "description": "The status of the plan (Approved and Scheduled, Scheduled Primary, etc).",
+            "example": "Approved and Scheduled"
           },
           "phakicMeasurementSet": {
             "$ref": "#/components/schemas/phakicMeasurementSet"
@@ -9504,7 +9618,7 @@
             "description": "The object, defined and managed by the front end, that contains the eye assessment for a patient within a case."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -9657,15 +9771,15 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -9673,11 +9787,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -9693,7 +9807,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -9741,15 +9855,15 @@
             "$ref": "#/components/schemas/ExceptionResponseBody"
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id (CarePlan/guid)."
           },
           "fromGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid the resource was created from."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -9757,11 +9871,11 @@
             "description": "The time the resource was last updated."
           },
           "parentMeasurement": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The parent measurement (Observation/guid)."
           },
           "patientReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The patient reference (Patient/guid)."
           },
           "patientVersion": {
@@ -9777,7 +9891,7 @@
             "description": "The technician name."
           },
           "technicianReference": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The technician reference (Practitioner/guid)."
           },
           "timeStamp": {
@@ -9934,7 +10048,7 @@
             "description": "The object, defined and managed by the front end, that contains the eye assessment for a patient within a case."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -9999,7 +10113,7 @@
             "description": "The birth date of the patient."
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The case id, used as input from the front end when updating a specific case while updating a patient."
           },
           "firstName": {
@@ -10018,7 +10132,7 @@
             }
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid of the Patient resource stored in CDR."
           },
           "lastName": {
@@ -10108,20 +10222,28 @@
           },
           "caseStatus": {
             "type": "string",
-            "description": "The status of the case.",
-            "example": "active | completed"
+            "description": "The status of the case (active | completed).",
+            "enum": [
+              "active",
+              "completed"
+            ],
+            "example": "active"
           },
           "eye": {
             "type": "string",
-            "description": "The eye the case pertains to.",
-            "example": "OD (right) | OS (left)"
+            "description": "The eye the case pertains to (OD (right) | OS (left)).",
+            "enum": [
+              "OD",
+              "OS"
+            ],
+            "example": "OD"
           },
           "eyeAssessment": {
             "type": "object",
             "description": "The eye assessment."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid of the case. While not individually stored in CDR, the guid helps identify each case in the JSON structure."
           },
           "lastUpdated": {
@@ -10214,7 +10336,7 @@
             "description": "The object, defined and managed by the front end, that contains the eye assessment for a patient within a case."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -10245,14 +10367,12 @@
         "type": "object",
         "properties": {
           "odCaseGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The OD case guid to include in the surgical plan PDF.",
-            "format": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
           },
           "osCaseGuid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The OS case guid to include in the surgical plan PDF.",
-            "format": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
           },
           "odEyeIcon": {
             "type": "string",
@@ -10263,38 +10383,32 @@
             "description": "The OS eye icon as a base 64 encoded string to use in the surgical plan PDF."
           },
           "odSurgicalPlanGuid": {
-            "type": "string",
-            "description": "The OD surgical plan guid to include in the surgical plan PDF.",
-            "format": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+            "$ref": "#/components/schemas/uuid",
+            "description": "The OD surgical plan guid to include in the surgical plan PDF."
           },
           "osSurgicalPlanGuid": {
-            "type": "string",
-            "description": "The OS surgical plan guid to include in the surgical plan PDF.",
-            "format": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+            "$ref": "#/components/schemas/uuid",
+            "description": "The OS surgical plan guid to include in the surgical plan PDF."
           },
           "odKeratometryGuid": {
-            "type": "string",
-            "description": "The OD keratometry measurement guid to include in the surgical plan PDF.",
-            "format": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+            "$ref": "#/components/schemas/uuid",
+            "description": "The OD keratometry measurement guid to include in the surgical plan PDF."
           },
           "osKeratometryGuid": {
-            "type": "string",
-            "description": "The OS keratometry measurement guid to include in the surgical plan PDF.",
-            "format": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+            "$ref": "#/components/schemas/uuid",
+            "description": "The OS keratometry measurement guid to include in the surgical plan PDF."
           },
           "keratometryUnits": {
             "type": "string",
             "description": "The keratometry units to use in the surgical plan PDF."
           },
           "odBiometryGuid": {
-            "type": "string",
-            "description": "The OD biometry measurement guid to include in the surgical plan PDF.",
-            "format": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+            "$ref": "#/components/schemas/uuid",
+            "description": "The OD biometry measurement guid to include in the surgical plan PDF."
           },
           "osBiometryGuid": {
-            "type": "string",
-            "description": "The OS biometry measurement guid to include in the surgical plan PDF.",
-            "format": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+            "$ref": "#/components/schemas/uuid",
+            "description": "The OS biometry measurement guid to include in the surgical plan PDF."
           },
           "dateTimeFormat": {
             "type": "string",
@@ -10311,8 +10425,8 @@
           },
           "timeZone": {
             "type": "string",
-            "description": "The time zone of the client.",
-            "example": "America/Chicago | America/New_York | America/Denver | America/Los_Angeles"
+            "description": "The time zone of the client (America/Chicago | America/New_York | America/Denver | America/Los_Angeles).",
+            "example": "America/Chicago"
           },
           "userName": {
             "type": "string",
@@ -10328,9 +10442,8 @@
             "description": "The current time of the surgical plan PDF generation formatted using the SurgicalPlanTransform dataTimeFormat and the timeZone."
           },
           "surgicalPlanPrintSelection": {
-            "type": "string",
-            "description": "The guid for the selected surgical plan to be printed.",
-            "format": "([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})"
+            "$ref": "#/components/schemas/uuid",
+            "description": "The guid for the selected surgical plan to be printed."
           }
         },
         "description": "The surgical plan transformation input parameters needed to create a surgical plan PDF."
@@ -10362,7 +10475,7 @@
             "description": "The reference to the case details reference needed for reporting."
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The id of the case the surgical plan belongs to, used in reporting."
           },
           "completedDate": {
@@ -10405,8 +10518,8 @@
           },
           "planStatusSelection": {
             "type": "string",
-            "description": "The status of the plan.",
-            "example": "Approved and Scheduled, Scheduled Primary, etc"
+            "description": "The status of the plan (Approved and Scheduled, Scheduled Primary, etc).",
+            "example": "Approved and Scheduled"
           },
           "phakicMeasurementSet": {
             "$ref": "#/components/schemas/phakicMeasurementSet"
@@ -10464,7 +10577,7 @@
             "description": "The object, defined and managed by the front end, that contains the eye assessment for a patient within a case."
           },
           "guid": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The guid."
           },
           "lastUpdated": {
@@ -10495,7 +10608,7 @@
             "description": "The author."
           },
           "caseId": {
-            "type": "string",
+            "$ref": "#/components/schemas/uuid",
             "description": "The uid of the CarePlan the note belongs to."
           },
           "content": {
